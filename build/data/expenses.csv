@@ -1,3 +1,4 @@
+Description,Amount,Date,Category,IsPaid,IsProfit,IsRecurring
 "Salary",5000.00,1672531200,"Income",true,true,false
 "Groceries",150.75,1672617600,"Food",true,false,false
 "Electricity Bill",120.50,1672704000,"Utilities",true,false,true

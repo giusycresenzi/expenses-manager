@@ -1,0 +1,6 @@
+-I/Users/giuseppecrescenzi/cli-cpp/expenses-manager/include
+-I/Users/giuseppecrescenzi/cli-cpp/expenses-manager
+-I/Users/giuseppecrescenzi/cli-cpp/expenses-manager/build
+-o
+/Users/giuseppecrescenzi/cli-cpp/expenses-manager/build/include/moc_MainWindow.cpp
+/Users/giuseppecrescenzi/cli-cpp/expenses-manager/include/MainWindow.h
