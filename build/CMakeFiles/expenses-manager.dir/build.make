@@ -77,7 +77,7 @@ expenses-manager_autogen/timestamp: /opt/homebrew/share/qt/libexec/moc
 expenses-manager_autogen/timestamp: /opt/homebrew/share/qt/libexec/uic
 expenses-manager_autogen/timestamp: CMakeFiles/expenses-manager.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/giuseppecrescenzi/cli-cpp/expenses-manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic MOC and UIC for target expenses-manager"
-	/opt/homebrew/bin/cmake -E cmake_autogen /Users/giuseppecrescenzi/cli-cpp/expenses-manager/build/CMakeFiles/expenses-manager_autogen.dir/AutogenInfo.json ""
+	/opt/homebrew/bin/cmake -E cmake_autogen /Users/giuseppecrescenzi/cli-cpp/expenses-manager/build/CMakeFiles/expenses-manager_autogen.dir/AutogenInfo.json Debug
 	/opt/homebrew/bin/cmake -E touch /Users/giuseppecrescenzi/cli-cpp/expenses-manager/build/expenses-manager_autogen/timestamp
 
 CMakeFiles/expenses-manager.dir/codegen:
@@ -87,71 +87,71 @@ CMakeFiles/expenses-manager.dir/expenses-manager_autogen/mocs_compilation.cpp.o:
 CMakeFiles/expenses-manager.dir/expenses-manager_autogen/mocs_compilation.cpp.o: expenses-manager_autogen/mocs_compilation.cpp
 CMakeFiles/expenses-manager.dir/expenses-manager_autogen/mocs_compilation.cpp.o: CMakeFiles/expenses-manager.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/giuseppecrescenzi/cli-cpp/expenses-manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/expenses-manager.dir/expenses-manager_autogen/mocs_compilation.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/expenses-manager.dir/expenses-manager_autogen/mocs_compilation.cpp.o -MF CMakeFiles/expenses-manager.dir/expenses-manager_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/expenses-manager.dir/expenses-manager_autogen/mocs_compilation.cpp.o -c /Users/giuseppecrescenzi/cli-cpp/expenses-manager/build/expenses-manager_autogen/mocs_compilation.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/expenses-manager.dir/expenses-manager_autogen/mocs_compilation.cpp.o -MF CMakeFiles/expenses-manager.dir/expenses-manager_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/expenses-manager.dir/expenses-manager_autogen/mocs_compilation.cpp.o -c /Users/giuseppecrescenzi/cli-cpp/expenses-manager/build/expenses-manager_autogen/mocs_compilation.cpp
 
 CMakeFiles/expenses-manager.dir/expenses-manager_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/expenses-manager.dir/expenses-manager_autogen/mocs_compilation.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/giuseppecrescenzi/cli-cpp/expenses-manager/build/expenses-manager_autogen/mocs_compilation.cpp > CMakeFiles/expenses-manager.dir/expenses-manager_autogen/mocs_compilation.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/giuseppecrescenzi/cli-cpp/expenses-manager/build/expenses-manager_autogen/mocs_compilation.cpp > CMakeFiles/expenses-manager.dir/expenses-manager_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/expenses-manager.dir/expenses-manager_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/expenses-manager.dir/expenses-manager_autogen/mocs_compilation.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/giuseppecrescenzi/cli-cpp/expenses-manager/build/expenses-manager_autogen/mocs_compilation.cpp -o CMakeFiles/expenses-manager.dir/expenses-manager_autogen/mocs_compilation.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/giuseppecrescenzi/cli-cpp/expenses-manager/build/expenses-manager_autogen/mocs_compilation.cpp -o CMakeFiles/expenses-manager.dir/expenses-manager_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/expenses-manager.dir/src/main.cpp.o: CMakeFiles/expenses-manager.dir/flags.make
 CMakeFiles/expenses-manager.dir/src/main.cpp.o: /Users/giuseppecrescenzi/cli-cpp/expenses-manager/src/main.cpp
 CMakeFiles/expenses-manager.dir/src/main.cpp.o: CMakeFiles/expenses-manager.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/giuseppecrescenzi/cli-cpp/expenses-manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/expenses-manager.dir/src/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/expenses-manager.dir/src/main.cpp.o -MF CMakeFiles/expenses-manager.dir/src/main.cpp.o.d -o CMakeFiles/expenses-manager.dir/src/main.cpp.o -c /Users/giuseppecrescenzi/cli-cpp/expenses-manager/src/main.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/expenses-manager.dir/src/main.cpp.o -MF CMakeFiles/expenses-manager.dir/src/main.cpp.o.d -o CMakeFiles/expenses-manager.dir/src/main.cpp.o -c /Users/giuseppecrescenzi/cli-cpp/expenses-manager/src/main.cpp
 
 CMakeFiles/expenses-manager.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/expenses-manager.dir/src/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/giuseppecrescenzi/cli-cpp/expenses-manager/src/main.cpp > CMakeFiles/expenses-manager.dir/src/main.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/giuseppecrescenzi/cli-cpp/expenses-manager/src/main.cpp > CMakeFiles/expenses-manager.dir/src/main.cpp.i
 
 CMakeFiles/expenses-manager.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/expenses-manager.dir/src/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/giuseppecrescenzi/cli-cpp/expenses-manager/src/main.cpp -o CMakeFiles/expenses-manager.dir/src/main.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/giuseppecrescenzi/cli-cpp/expenses-manager/src/main.cpp -o CMakeFiles/expenses-manager.dir/src/main.cpp.s
 
 CMakeFiles/expenses-manager.dir/src/manager.cpp.o: CMakeFiles/expenses-manager.dir/flags.make
 CMakeFiles/expenses-manager.dir/src/manager.cpp.o: /Users/giuseppecrescenzi/cli-cpp/expenses-manager/src/manager.cpp
 CMakeFiles/expenses-manager.dir/src/manager.cpp.o: CMakeFiles/expenses-manager.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/giuseppecrescenzi/cli-cpp/expenses-manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/expenses-manager.dir/src/manager.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/expenses-manager.dir/src/manager.cpp.o -MF CMakeFiles/expenses-manager.dir/src/manager.cpp.o.d -o CMakeFiles/expenses-manager.dir/src/manager.cpp.o -c /Users/giuseppecrescenzi/cli-cpp/expenses-manager/src/manager.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/expenses-manager.dir/src/manager.cpp.o -MF CMakeFiles/expenses-manager.dir/src/manager.cpp.o.d -o CMakeFiles/expenses-manager.dir/src/manager.cpp.o -c /Users/giuseppecrescenzi/cli-cpp/expenses-manager/src/manager.cpp
 
 CMakeFiles/expenses-manager.dir/src/manager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/expenses-manager.dir/src/manager.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/giuseppecrescenzi/cli-cpp/expenses-manager/src/manager.cpp > CMakeFiles/expenses-manager.dir/src/manager.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/giuseppecrescenzi/cli-cpp/expenses-manager/src/manager.cpp > CMakeFiles/expenses-manager.dir/src/manager.cpp.i
 
 CMakeFiles/expenses-manager.dir/src/manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/expenses-manager.dir/src/manager.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/giuseppecrescenzi/cli-cpp/expenses-manager/src/manager.cpp -o CMakeFiles/expenses-manager.dir/src/manager.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/giuseppecrescenzi/cli-cpp/expenses-manager/src/manager.cpp -o CMakeFiles/expenses-manager.dir/src/manager.cpp.s
 
 CMakeFiles/expenses-manager.dir/src/MainWindow.cpp.o: CMakeFiles/expenses-manager.dir/flags.make
 CMakeFiles/expenses-manager.dir/src/MainWindow.cpp.o: /Users/giuseppecrescenzi/cli-cpp/expenses-manager/src/MainWindow.cpp
 CMakeFiles/expenses-manager.dir/src/MainWindow.cpp.o: CMakeFiles/expenses-manager.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/giuseppecrescenzi/cli-cpp/expenses-manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/expenses-manager.dir/src/MainWindow.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/expenses-manager.dir/src/MainWindow.cpp.o -MF CMakeFiles/expenses-manager.dir/src/MainWindow.cpp.o.d -o CMakeFiles/expenses-manager.dir/src/MainWindow.cpp.o -c /Users/giuseppecrescenzi/cli-cpp/expenses-manager/src/MainWindow.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/expenses-manager.dir/src/MainWindow.cpp.o -MF CMakeFiles/expenses-manager.dir/src/MainWindow.cpp.o.d -o CMakeFiles/expenses-manager.dir/src/MainWindow.cpp.o -c /Users/giuseppecrescenzi/cli-cpp/expenses-manager/src/MainWindow.cpp
 
 CMakeFiles/expenses-manager.dir/src/MainWindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/expenses-manager.dir/src/MainWindow.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/giuseppecrescenzi/cli-cpp/expenses-manager/src/MainWindow.cpp > CMakeFiles/expenses-manager.dir/src/MainWindow.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/giuseppecrescenzi/cli-cpp/expenses-manager/src/MainWindow.cpp > CMakeFiles/expenses-manager.dir/src/MainWindow.cpp.i
 
 CMakeFiles/expenses-manager.dir/src/MainWindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/expenses-manager.dir/src/MainWindow.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/giuseppecrescenzi/cli-cpp/expenses-manager/src/MainWindow.cpp -o CMakeFiles/expenses-manager.dir/src/MainWindow.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/giuseppecrescenzi/cli-cpp/expenses-manager/src/MainWindow.cpp -o CMakeFiles/expenses-manager.dir/src/MainWindow.cpp.s
 
 CMakeFiles/expenses-manager.dir/include/moc_MainWindow.cpp.o: CMakeFiles/expenses-manager.dir/flags.make
 CMakeFiles/expenses-manager.dir/include/moc_MainWindow.cpp.o: include/moc_MainWindow.cpp
 CMakeFiles/expenses-manager.dir/include/moc_MainWindow.cpp.o: CMakeFiles/expenses-manager.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/giuseppecrescenzi/cli-cpp/expenses-manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/expenses-manager.dir/include/moc_MainWindow.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/expenses-manager.dir/include/moc_MainWindow.cpp.o -MF CMakeFiles/expenses-manager.dir/include/moc_MainWindow.cpp.o.d -o CMakeFiles/expenses-manager.dir/include/moc_MainWindow.cpp.o -c /Users/giuseppecrescenzi/cli-cpp/expenses-manager/build/include/moc_MainWindow.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/expenses-manager.dir/include/moc_MainWindow.cpp.o -MF CMakeFiles/expenses-manager.dir/include/moc_MainWindow.cpp.o.d -o CMakeFiles/expenses-manager.dir/include/moc_MainWindow.cpp.o -c /Users/giuseppecrescenzi/cli-cpp/expenses-manager/build/include/moc_MainWindow.cpp
 
 CMakeFiles/expenses-manager.dir/include/moc_MainWindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/expenses-manager.dir/include/moc_MainWindow.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/giuseppecrescenzi/cli-cpp/expenses-manager/build/include/moc_MainWindow.cpp > CMakeFiles/expenses-manager.dir/include/moc_MainWindow.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/giuseppecrescenzi/cli-cpp/expenses-manager/build/include/moc_MainWindow.cpp > CMakeFiles/expenses-manager.dir/include/moc_MainWindow.cpp.i
 
 CMakeFiles/expenses-manager.dir/include/moc_MainWindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/expenses-manager.dir/include/moc_MainWindow.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/giuseppecrescenzi/cli-cpp/expenses-manager/build/include/moc_MainWindow.cpp -o CMakeFiles/expenses-manager.dir/include/moc_MainWindow.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/giuseppecrescenzi/cli-cpp/expenses-manager/build/include/moc_MainWindow.cpp -o CMakeFiles/expenses-manager.dir/include/moc_MainWindow.cpp.s
 
 # Object files for target expenses-manager
 expenses__manager_OBJECTS = \
