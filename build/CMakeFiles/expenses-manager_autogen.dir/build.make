@@ -72,7 +72,7 @@ expenses-manager_autogen/timestamp: /opt/homebrew/share/qt/libexec/moc
 expenses-manager_autogen/timestamp: /opt/homebrew/share/qt/libexec/uic
 expenses-manager_autogen/timestamp: CMakeFiles/expenses-manager_autogen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/giuseppecrescenzi/cli-cpp/expenses-manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target expenses-manager"
-	/opt/homebrew/bin/cmake -E cmake_autogen /Users/giuseppecrescenzi/cli-cpp/expenses-manager/build/CMakeFiles/expenses-manager_autogen.dir/AutogenInfo.json Debug
+	/opt/homebrew/bin/cmake -E cmake_autogen /Users/giuseppecrescenzi/cli-cpp/expenses-manager/build/CMakeFiles/expenses-manager_autogen.dir/AutogenInfo.json ""
 	/opt/homebrew/bin/cmake -E touch /Users/giuseppecrescenzi/cli-cpp/expenses-manager/build/expenses-manager_autogen/timestamp
 
 CMakeFiles/expenses-manager_autogen.dir/codegen:

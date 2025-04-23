@@ -32,3 +32,44 @@ MainWindow::MainWindow(QWidget *parent)
     connect(saveButton, &QPushButton::clicked, this, &MainWindow::saveExpenses);
     connect(addButton, &QPushButton::clicked, this, &MainWindow::addExpense);
 }
+
+void MainWindow::loadExpenses() {
+    QString filePath = QFileDialog::getOpenFileName(this, "Open CSV File", "", "CSV Files (*.csv)");
+    if (!filePath.isEmpty()) {
+        manager.loadExpensesFromCSV(filePath.toStdString());
+        populateTable();
+    }
+}
+
+void MainWindow::saveExpenses() {
+    QString filePath = QFileDialog::getSaveFileName(this, "Save CSV File", "", "CSV Files (*.csv)");
+    if (!filePath.isEmpty()) {
+        manager.saveExpensesToCSV(filePath.toStdString());
+        QMessageBox::information(this, "Save Expenses", "Expenses saved successfully!");
+    }
+}
+
+void MainWindow::addExpense() {
+    // For simplicity, add a dummy expense
+    Manager::Expense expense = {"New Expense", 0.0, std::time(nullptr), "Category", false, false, false};
+    manager.addExpense(expense);
+    populateTable();
+}
+
+void MainWindow::populateTable() {
+    tableWidget->setRowCount(0); // Clear the table
+
+    const auto &expenses = manager.getExpenses(); // Add a getter for `expenses` in Manager
+    for (const auto &expense : expenses) {
+        int row = tableWidget->rowCount();
+        tableWidget->insertRow(row);
+
+        tableWidget->setItem(row, 0, new QTableWidgetItem(QString::fromStdString(expense.description)));
+        tableWidget->setItem(row, 1, new QTableWidgetItem(QString::number(expense.amount)));
+        tableWidget->setItem(row, 2, new QTableWidgetItem(QString::fromStdString(std::to_string(expense.date))));
+        tableWidget->setItem(row, 3, new QTableWidgetItem(QString::fromStdString(expense.category)));
+        tableWidget->setItem(row, 4, new QTableWidgetItem(expense.isPaid ? "Yes" : "No"));
+        tableWidget->setItem(row, 5, new QTableWidgetItem(expense.isProfit ? "Yes" : "No"));
+        tableWidget->setItem(row, 6, new QTableWidgetItem(expense.isRecurring ? "Yes" : "No"));
+    }
+}

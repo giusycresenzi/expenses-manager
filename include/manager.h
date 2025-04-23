@@ -10,9 +10,10 @@
 #include <vector>
 #include <ctime>
 
-class Manager {    
-private:
-    
+class Manager {
+
+public:
+
     struct Expense {
         std::string description;
         double amount;
@@ -22,12 +23,6 @@ private:
         bool isProfit; // true for profit, false for loss
         bool isRecurring;
     };
-    std::vector<Expense> expenses;
-    Expense parseExpense(const std::string& line);
-
-public:
-
-public:
 
     Manager() = default;
     explicit Manager(const std::string& filePath); // Constructor to load expenses directly from the main
@@ -40,6 +35,12 @@ public:
     void markExpenseAsPaid(const std::string& description); // overloaded
     void showExpenses() const;
     void estimateTotal() const;
+
+private:
+    
+    std::vector<Expense> expenses;
+    Expense parseExpense(const std::string& line);
+    
 };
 
 #endif // MANAGER_H

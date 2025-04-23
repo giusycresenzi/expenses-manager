@@ -23,7 +23,7 @@ private slots:
     void addExpense();
 
 private:
-    Manager manager; // Instance of your Manager class
+    Manager manager;
     QTableWidget *tableWidget;
     QPushButton *loadButton;
     QPushButton *saveButton;
