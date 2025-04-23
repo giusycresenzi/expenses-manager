@@ -288,11 +288,11 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "expenses-manager_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "expenses-manager_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "expenses-manager_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "expenses-manager::@6890427a1f51a3e7e1df",

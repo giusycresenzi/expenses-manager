@@ -71,5 +71,16 @@ void MainWindow::populateTable() {
         tableWidget->setItem(row, 4, new QTableWidgetItem(expense.isPaid ? "Yes" : "No"));
         tableWidget->setItem(row, 5, new QTableWidgetItem(expense.isProfit ? "Yes" : "No"));
         tableWidget->setItem(row, 6, new QTableWidgetItem(expense.isRecurring ? "Yes" : "No"));
+
+        // apply colors based on conditions
+        if (!expense.isPaid) {
+            tableWidget->item(row, 4)->setBackground(Qt::red);
+        }
+        if (expense.isProfit) {
+            tableWidget->item(row, 5)->setBackground(Qt::green);
+        }
+        if (expense.isRecurring) {
+            tableWidget->item(row, 6)->setBackground(Qt::yellow);
+        }
     }
 }
