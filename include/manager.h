@@ -26,16 +26,20 @@ private:
     Expense parseExpense(const std::string& line);
 
 public:
-    
-        void loadExpensesFromCSV(const std::string& filePath);
-        void saveExpensesToCSV(const std::string& filePath) const;
-        void addExpense(const Expense& expense);
-        void sortByCategory();
-        void markExpenseAsPaid(size_t index);
-        void markExpenseAsPaid(const std::string& description);
-        void showExpenses() const;
-        void estimateTotal() const;
 
+public:
+
+    Manager() = default;
+    explicit Manager(const std::string& filePath); // Constructor to load expenses directly from the main
+    const std::vector<Expense>& getExpenses() const { return expenses; }
+    void loadExpensesFromCSV(const std::string& filePath);
+    void saveExpensesToCSV(const std::string& filePath) const;
+    void addExpense(const Expense& expense);
+    void sortByCategory();
+    void markExpenseAsPaid(size_t index);
+    void markExpenseAsPaid(const std::string& description); // overloaded
+    void showExpenses() const;
+    void estimateTotal() const;
 };
 
 #endif // MANAGER_H

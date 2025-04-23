@@ -1,0 +1,11 @@
+Description,Amount,Date,Category,IsPaid,IsProfit,IsRecurring
+"Salary",5000.00,1672531200,"Income",true,true,false
+"Groceries",150.75,1672617600,"Food",true,false,false
+"Electricity Bill",120.50,1672704000,"Utilities",true,false,true
+"Gym Membership",50.00,1672790400,"Health",true,false,true
+"Freelance Project",1200.00,1672876800,"Income",true,true,false
+"Dining Out",75.00,1672963200,"Entertainment",true,false,false
+"Car Maintenance",300.00,1673049600,"Transport",false,false,false
+"Stock Dividends",200.00,1673136000,"Investment",true,true,false
+"Internet Bill",60.00,1673222400,"Utilities",true,false,true
+"Movie Tickets",30.00,1673308800,"Entertainment",true,false,false

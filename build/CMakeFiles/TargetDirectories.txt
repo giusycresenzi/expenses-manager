@@ -1,0 +1,5 @@
+/Users/giuseppecrescenzi/cli-cpp/expenses-manager/build/CMakeFiles/expenses-manager.dir
+/Users/giuseppecrescenzi/cli-cpp/expenses-manager/build/CMakeFiles/edit_cache.dir
+/Users/giuseppecrescenzi/cli-cpp/expenses-manager/build/CMakeFiles/rebuild_cache.dir
+/Users/giuseppecrescenzi/cli-cpp/expenses-manager/build/CMakeFiles/expenses-manager_autogen_timestamp_deps.dir
+/Users/giuseppecrescenzi/cli-cpp/expenses-manager/build/CMakeFiles/expenses-manager_autogen.dir

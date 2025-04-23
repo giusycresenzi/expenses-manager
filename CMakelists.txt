@@ -1,0 +1,35 @@
+cmake_minimum_required(VERSION 3.10)
+project(expenses-manager)
+
+# Find Qt5 Widgets
+find_package(Qt6 COMPONENTS Widgets REQUIRED)
+
+# Set C++ standard
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
+# Include directories
+include_directories(${CMAKE_SOURCE_DIR}/include)
+
+# Enable Qt features
+set(CMAKE_PREFIX_PATH "/opt/homebrew/opt/qt/lib/cmake")
+set(CMAKE_AUTOMOC ON) # Automatically handle MOC (Meta-Object Compiler)
+set(CMAKE_AUTOUIC ON) # Automatically handle UIC (User Interface Compiler)
+set(CMAKE_AUTORCC ON) # Automatically handle RCC (Resource Compiler)
+
+# Add the executable
+add_executable(expenses-manager
+    src/main.cpp
+    src/manager.cpp
+    src/MainWindow.cpp
+)
+
+# Link Qt libraries
+target_link_libraries(expenses-manager Qt6::Widgets)
+
+# Add the data directory to the build directory
+add_custom_command(
+    TARGET expenses-manager POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy_directory
+    ${CMAKE_SOURCE_DIR}/data $<TARGET_FILE_DIR:expenses-manager>/data
+)

@@ -1,5 +1,8 @@
 #include "../include/manager.h"
 
+Manager::Manager(const std::string& filePath) {
+    loadExpensesFromCSV(filePath);
+}
 
 // Helper function to parse a CSV line into an Expense
 Manager::Expense Manager::parseExpense(const std::string& line) {
